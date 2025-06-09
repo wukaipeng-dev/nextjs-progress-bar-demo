@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
+import { useRouter } from '@bprogress/next/app';
 import Link from 'next/link';
 
 export default function LoginPage() {
@@ -53,7 +54,7 @@ export default function LoginPage() {
               <input
                 id="email"
                 name="email"
-                type="email"
+                // type="email"
                 autoComplete="email"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
