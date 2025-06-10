@@ -1,4 +1,7 @@
+'use client';
+
 import "./globals.css";
+import { ProgressWrapper } from './components/ProgressWrapper';
 
 export default function RootLayout({
   children,
@@ -7,7 +10,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ProgressWrapper>
+          {children}
+        </ProgressWrapper>
+      </body>
     </html>
   );
 }
