@@ -61,6 +61,14 @@ export default function SignupPage() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div>
+          <Link href="/" className="flex justify-center mb-8">
+            <div className="flex items-center space-x-2 bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition duration-150 ease-in-out cursor-pointer">
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-bold text-lg">L</span>
+              </div>
+              <span className="font-bold text-xl">DemoApp</span>
+            </div>
+          </Link>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Create your account
           </h2>
